@@ -1,0 +1,8 @@
+{
+  "name": "get-namespace",
+  "version": "0.1.0",
+  "description": "",
+  "main": "getNamespace.js",
+  "author": "Senfino",
+  "license": "MIT"
+}

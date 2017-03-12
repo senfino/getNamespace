@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript" src="getNamespace.js"></script>
+	<script type="text/javascript">
+		com.senfino.getNamespace('com.senfino.some.new.namespaced').library = function(){
+			console.log('some new function called');
+		};
+
+		com.senfino.some.new.namespaced.library();
+	</script>
+</body>
+</html>
